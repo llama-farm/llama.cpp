@@ -37,6 +37,7 @@ Getting started with llama.cpp is straightforward. Here are several ways to inst
 - Run with Docker - see our [Docker documentation](docs/docker.md)
 - Download pre-built binaries from the [releases page](https://github.com/ggml-org/llama.cpp/releases)
 - Build from source by cloning this repository - check out [our build guide](docs/build.md)
+- **NVIDIA Jetson** (Orin, Xavier, TX2, Nano) - see [Jetson build guide](docs/build-jetson.md)
 
 Once installed, you'll need a model to work with. Head to the [Obtaining and quantizing models](#obtaining-and-quantizing-models) section to learn more.
 
@@ -275,7 +276,7 @@ Instructions for adding support for new models: [HOWTO-add-model.md](docs/develo
 | [BLIS](docs/backend/BLIS.md) | All |
 | [SYCL](docs/backend/SYCL.md) | Intel and Nvidia GPU |
 | [MUSA](docs/build.md#musa) | Moore Threads GPU |
-| [CUDA](docs/build.md#cuda) | Nvidia GPU |
+| [CUDA](docs/build.md#cuda) | Nvidia GPU (see [Jetson guide](docs/build-jetson.md) for Tegra) |
 | [HIP](docs/build.md#hip) | AMD GPU |
 | [ZenDNN](docs/build.md#zendnn) | AMD CPU |
 | [Vulkan](docs/build.md#vulkan) | GPU |
